@@ -1,1 +1,13 @@
 /* styles.css */
+
+$main-color: #ce4dd6;
+$style: dotted;
+
+#navLinks {
+    width: 80%;
+    border: $style 2px;
+
+    li {
+        border: $main-color;
+    }
+}
